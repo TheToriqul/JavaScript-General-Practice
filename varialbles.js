@@ -1,5 +1,10 @@
-var name = "Ariful"
+var firstName = "Ariful"
+var lastName = "Islam"
 var age = 17
 var isStudent = true
 
-console.log("Name: " + name, "Age: " + age, "Is he a student? " + isStudent)
+console.log(
+  "Name: " + firstName + " " + lastName,
+  "Age: " + age, 
+  "Is he a student? " + isStudent
+)
