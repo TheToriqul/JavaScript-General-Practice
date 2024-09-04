@@ -10,7 +10,7 @@ write a simple if-else.
 also, write it using ternary operator.
 
  */
-
+/**
 // Example 1: Check if a number is positive or non-positive
 let num3 = -3;
 let result = num3 > 0 ? "Positive" : "Non-positive";
@@ -29,3 +29,21 @@ console.log(num4 % 2 === 0 ? "Even" : "Odd");
 let num5 = 0;
 let message = num5 > 0 ? "Positive" : (num5 < 0 ? "Negative" : "Zero");
 console.log(message);
+*/
+
+// Another way to check
+let num1 = 30;
+let num2 = 20;
+
+// if (num1 > num2){
+//   let result = num1 * 2;
+//   console.log(result);
+// }
+
+// else {
+//   let result = num1 + num2;
+//   console.log(result);
+// }
+
+let result = num1 > num2 ? num1 * 2 : num1 + num2;
+console.log(result);
