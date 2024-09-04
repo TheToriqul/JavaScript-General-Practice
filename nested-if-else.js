@@ -11,3 +11,6 @@ if (age >= 12 || withAdult) {
 } else {
   console.log("You are not allowed to enter the park");
 }
+
+// ----------------------------------------------------------------
+
