@@ -8,8 +8,8 @@ Ticket fare Calculator
 */
 
 // Input variables
-let age = 25;
-let isStudent = true;
+let age = 35;
+let isStudent = false;
 
 // Constants
 const regularFare = 800;
@@ -19,6 +19,7 @@ let finalFare;
 let ticketType;
 
 // Ticket fare calculation logic
+/**
 if (age < 10) {
     finalFare = 0;
     ticketType = "Child ticket";
@@ -32,9 +33,22 @@ if (age < 10) {
     finalFare = regularFare;
     ticketType = "Regular ticket";
 }
+*/
 
-// Output results
-console.log("Age:", age);
-console.log("Is Student:", isStudent);
-console.log(ticketType);
-console.log("Ticket fare:", finalFare, "tk");
+// Another way to get the ticket fare.
+
+let ticketFare = regularFare;
+
+if (age <= 10) {
+    ticketFare = 0;
+    console.log("Child ticket fare:", ticketFare, "tk");
+} else if (isStudent) {
+    ticketFare *= 0.5;
+    console.log("Student ticket fare:", ticketFare, "tk");
+} else if (age >= 60) {
+    ticketFare *= 0.85;
+    console.log("Senior citizen ticket fare:", ticketFare, "tk");
+}
+else {
+   console.log("Regular ticket fare:", ticketFare, "tk");
+}
