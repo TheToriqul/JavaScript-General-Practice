@@ -32,18 +32,19 @@ console.log(message);
 */
 
 // Another way to check
+
 let num1 = 30;
 let num2 = 20;
 
-// if (num1 > num2){
-//   let result = num1 * 2;
-//   console.log(result);
-// }
+if (num1 > num2) {
+  let result = num1 * 2;
+  console.log(result);
+} else {
+  let result = num1 + num2;
+  console.log(result);
+}
 
-// else {
-//   let result = num1 + num2;
-//   console.log(result);
-// }
+// Using ternary operator
 
 let result = num1 > num2 ? num1 * 2 : num1 + num2;
 console.log(result);
