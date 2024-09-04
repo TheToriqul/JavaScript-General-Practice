@@ -22,14 +22,14 @@ if (yourScore > 80) {
     console.log("You scored more than 80. Checking friend's score...");
     
     if (friendScore > 80) {
-        console.log("Your friend also scored more than 80. You're going for lunch!");
+        console.log("We're going for lunch!");
     } else if (friendScore >= 60 && friendScore <= 80) {
-        console.log("Your friend scored between 60 and 80. Telling them: Good luck next time!");
+        console.log("Good luck next time!");
     } else if (friendScore >= 40 && friendScore < 60) {
-        console.log("Your friend scored between 40 and 59. Keeping their message unseen.");
+        console.log("Keeping their message unseen.");
     } else {
-        console.log("Your friend scored less than 40. Blocking your friend.");
+        console.log("Blocking my friend.");
     }
 } else {
-    console.log("You scored 80 or less. Going home, sleeping, and acting sad.");
+    console.log("Going home, sleeping, and acting sad.");
 }
