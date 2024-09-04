@@ -30,3 +30,16 @@ if (bmi < 18.5) {
     console.log("You are obese.");
 }
 
+// Additional Challenge: Include a function to validate the input values (weight and height) before calculating the BMI.
+
+function validateInput(weight, height) {
+    if (typeof weight !== "number" || typeof height !== "number") {
+        return "Invalid input. Weight and height must be numbers.";
+    }
+
+    if (weight <= 0 || height <= 0) {
+        return "Invalid input. Weight and height must be positive numbers.";
+    }
+
+    return true;
+}
