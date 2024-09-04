@@ -48,3 +48,31 @@ if (num1 > num2) {
 
 let result = num1 > num2 ? num1 * 2 : num1 + num2;
 console.log(result);
+
+// Another example.
+let age = 20;
+let canVote = age >= 18 ? "Yes" : "No";
+console.log(canVote); // Outputs: "Yes"
+
+// Ternary in a function
+function getFee(isMember) {
+  return isMember ? "$2.00" : "$10.00";
+}
+console.log(getFee(true)); // Outputs: "$2.00"
+console.log(getFee(false)); // Outputs: "$10.00"
+
+// Ternary in a arithmetic
+
+let x = 5, y = 10;
+let sum = x > y ? x + y : x - y;
+console.log(sum); // Outputs: 15
+
+// ----------------------------------------------------------------
+let a = 5, b = 3;
+let result2 = a > b ? a + b : a - b;
+console.log(result2); // Outputs: 8
+
+// Nested ternary (use with caution, can become hard to read):
+let num = 10;
+let nestedResult = num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero";
+console.log(nestedResult); // Outputs: "Positive"
