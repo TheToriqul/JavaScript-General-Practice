@@ -43,3 +43,5 @@ function validateInput(weight, height) {
 
     return true;
 }
+
+// End
