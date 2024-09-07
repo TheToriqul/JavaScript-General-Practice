@@ -42,3 +42,19 @@ function getRandomNumber(min, max) {
 
 const randomNum = getRandomNumber(10, 20);
 console.log(randomNum);
+
+// Function with additional requirements
+
+function getRandomNumberWithAdditionalRequirements(min, max, divisibleBy) {
+  let randomNumber;
+
+  do {
+    randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+  } while (randomNumber % divisibleBy !== 0);
+
+  return randomNumber;
+}
+
+const randomNum2 = getRandomNumberWithAdditionalRequirements(0, 100, 5);
+
+console.log(randomNum2);
