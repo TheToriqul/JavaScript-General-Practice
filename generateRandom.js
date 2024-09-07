@@ -4,6 +4,11 @@ const randomNumber = Math.floor(Math.random() * (20 - 10 + 1)) + 10;
 
 console.log(randomNumber);
 
+// Generate a random number between 0 and 20.
+
+const randomNumbers = Math.floor(Math.random() * 11) + 10;
+console.log(randomNumbers);
+
 // Generate a random number between 0 and 100.
 
 const randomNumber2 = Math.floor(Math.random() * 101);
