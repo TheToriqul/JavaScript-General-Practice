@@ -29,7 +29,6 @@ This is a personal practice repository. The code here may not be optimized or fo
 For any questions or inquiries regarding the project, please feel free to contact me:
 - **Email:** toriqul.int@gmail.com
 - **Phone:** +65 8936 7705, +8801765 939006
-- **Project Link:** https://github.com/TheToriqul/JavaScript-General-Practice
 
 ---
 Copyright © 2024 TheToriqul. All Rights Reserved.
