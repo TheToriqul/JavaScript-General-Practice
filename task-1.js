@@ -24,3 +24,11 @@ const money = 1000;
 const orangePrice = 700;
 
 console.log(money - orangePrice);
+
+// Using Function
+
+function calculateMoneyReturn(money, orangePrice) {
+  return money - orangePrice;
+}
+
+console.log(calculateMoneyReturn(1000, 700));
