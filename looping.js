@@ -14,3 +14,10 @@ for (let item in laptop) {
 }
 
 // Adding new item to the laptop collection
+
+laptop.screenSize = "15.6 inches";
+console.log("New laptop properties:");
+
+for (let item in laptop) {
+  console.log(`${item}: ${laptop[item]}`);
+}
