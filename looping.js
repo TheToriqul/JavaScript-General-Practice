@@ -12,7 +12,7 @@ const laptop = {
 for (let item in laptop) {
   console.log(`${item}: ${laptop[item]}`);
 }
-
+console.log()
 // Adding new item to the laptop collection
 
 laptop.screenSize = "15.6 inches";
