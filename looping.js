@@ -21,3 +21,21 @@ console.log("New laptop properties:");
 for (let item in laptop) {
   console.log(`${item}: ${laptop[item]}`);
 }
+
+// Deleting an item from the laptop collection
+
+delete laptop.price;
+console.log("Updated laptop properties after deleting price:");
+
+for (let item in laptop) {
+  console.log(`${item}: ${laptop[item]}`);
+}
+
+// Updating an item in the laptop collection
+
+laptop.model = "VivoBook 15 Pro";
+console.log("Updated laptop properties after updating model:");
+
+for (let item in laptop) {
+  console.log(`${item}: ${laptop[item]}`);
+}
