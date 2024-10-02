@@ -39,3 +39,11 @@ console.log("Updated laptop properties after updating model:");
 for (let item in laptop) {
   console.log(`${item}: ${laptop[item]}`);
 }
+
+// Checking the length of the laptop collection
+
+console.log("Length of laptop collection:", Object.keys(laptop).length);
+
+// Checking if a property exists in the laptop collection
+
+console.log("Is 'RAM' a property in the laptop collection?", laptop.hasOwnProperty("RAM"));
